@@ -7,7 +7,7 @@
   color: #333;
 }
 
-.privacy-policy-container h1 {
+.main-heading {
   font-size: 2.5rem;
   color: #1a1a1a;
   margin-bottom: 20px;
@@ -21,18 +21,18 @@
   margin-bottom: 15px;
 }
 
-.privacy-policy-container p {
+.pp-paragraph{
   font-size: 1rem;
   margin-bottom: 15px;
   text-align: justify;
 }
 
-.privacy-policy-container a {
+.pp-links{
   color: #007bff;
   text-decoration: none;
 }
 
-.privacy-policy-container a:hover {
+.pp-links:hover {
   text-decoration: underline;
 }
 
@@ -40,7 +40,7 @@
   font-weight: 600;
 }
 
-.privacy-policy-container footer p {
+.fpp-paragraph {
   margin: 5px 0;
   font-size: 0.9rem;
 }

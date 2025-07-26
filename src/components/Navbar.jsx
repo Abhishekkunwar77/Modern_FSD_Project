@@ -47,6 +47,9 @@ const Navbar = () => {
         <Link to="/view-activities" className="hover:text-cyan-600 transition">
           View Activities
         </Link>
+        <Link to="/pro-plans" className="hover:text-cyan-600 transition">
+          Pricing
+        </Link>
         {isLoggedIn ? (
           <button
             onClick={handleLogout}
@@ -108,6 +111,9 @@ const Navbar = () => {
           onClick={() => setOpen(false)}
         >
           View Activities
+        </Link>
+        <Link to="/pro-plans" className="hover:text-cyan-600 transition">
+          Pricing
         </Link>
 
         {isLoggedIn ? (

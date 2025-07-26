@@ -1,5 +1,5 @@
 import React from "react";
-import SplashPage from "../assets/LangingPage.png";
+import SplashPage from "../assets/LandingPage.png";
 import { FiArrowRight } from "react-icons/fi";
 
 const LandingPage = () => {

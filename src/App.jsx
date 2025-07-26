@@ -13,7 +13,8 @@ import Services from "./components/Services";
 import LoginPage from "./components/LoginPage";
 import About from './components/About';
 import PrivacyPolicy from './components/PrivacyPolicy';
-
+import Subscribe from './components/Subscribe';
+import Plan from "./components/Plan"
 const App = () => {
   const [logs, setLogs] = useState([]);
 
@@ -46,6 +47,7 @@ const App = () => {
               <>
                 <LandingPage />
                 <Services />
+                <Subscribe/>
                 <Contact />
               </>
             }
@@ -69,6 +71,7 @@ const App = () => {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/pro-plans" element={<Plan />} />
         </Routes>
       </main>
 

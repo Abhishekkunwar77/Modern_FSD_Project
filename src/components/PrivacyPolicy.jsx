@@ -3,18 +3,18 @@ import './PrivacyPolicy.css'
 const PrivacyPolicy = () => {
   return (
     <div className="privacy-policy-container">
-      <h1>Privacy Policy</h1>
+      <h1 className="main-heading">Privacy Policy</h1>
 
       <section>
         <h2>Introduction</h2>
-        <p>
+        <p className="pp-paragraph">
           At zaplog, we deeply value the trust you place in us and are committed
           to ensuring secure transactions and protecting your information
           privacy. This Privacy Policy outlines how zaplog Technologies Private
           Limited and its affiliates (collectively "zaplog, we, our, us")
           collect, use, share, protect, or otherwise process your personal data
           through our website{" "}
-          <a href="https://www.zaplog.in" target="_black">
+          <a className="pp-links" href="https://www.zaplog.in" target="_black">
             https://www.zaplog.in
           </a>{" "}
           and our mobile application (collectively, the "Platform"). You may
@@ -32,7 +32,7 @@ const PrivacyPolicy = () => {
 
       <section>
         <h2>Collection</h2>
-        <p>
+        <p className="pp-paragraph">
           We collect personal data related to your identity and demographics
           when you interact with our Platform, use our food delivery services,
           or engage with us during our relationship. This includes, but is not
@@ -44,7 +44,7 @@ const PrivacyPolicy = () => {
           location data to facilitate order delivery and enhance your
           experience, all in compliance with applicable laws.
         </p>
-        <p>
+        <p className="pp-paragraph">
           Additionally, we may collect information about your ordering behavior,
           food preferences, device location, browsing history, and other data
           you provide from time to time. Our primary goal is to deliver a safe,
@@ -57,7 +57,7 @@ const PrivacyPolicy = () => {
           not to provide certain information by opting out of specific services
           or features.
         </p>
-        <p>
+        <p className="pp-paragraph">
           If you join our loyalty program or participate in third-party loyalty
           programs offered through zaplog, we collect data such as your name,
           contact number, email address, delivery address, date of birth,
@@ -71,7 +71,7 @@ const PrivacyPolicy = () => {
 
       <section>
         <h2>Use</h2>
-        <p>
+        <p className="pp-paragraph">
           We use your personal data to fulfill the food delivery services you
           request, such as processing orders, coordinating with restaurants, and
           arranging deliveries. If we use your data for marketing purposes, we
@@ -82,7 +82,7 @@ const PrivacyPolicy = () => {
           enforce our terms, conduct surveys, and perform analytics, as
           described during data collection.
         </p>
-        <p>
+        <p className="pp-paragraph">
           With your permission, we may access your SMS, contacts, location, or
           device information to send order updates, provide personalized offers,
           or improve service delivery. Denying permission may limit access to
@@ -94,7 +94,7 @@ const PrivacyPolicy = () => {
 
       <section>
         <h2>Cookies</h2>
-        <p>
+        <p className="pp-paragraph">
           We use cookies and similar technologies on our Platform to analyze
           user behavior, measure promotional effectiveness, and enhance trust
           and safety. Cookies are small files stored on your device that help us
@@ -105,14 +105,23 @@ const PrivacyPolicy = () => {
           may affect certain functionalities. We also use third-party cookies,
           such as Google Analytics, to understand usage patterns. Learn more
           about Google’s data practices{" "}
-          <a href="https://policies.google.com/privacy">here</a> or opt out{" "}
-          <a href="https://tools.google.com/dlpage/gaoptout">here</a>.
+          <a className="pp-links" href="https://policies.google.com/privacy">
+            here
+          </a>{" "}
+          or opt out{" "}
+          <a
+            className="pp-links"
+            href="https://tools.google.com/dlpage/gaoptout"
+          >
+            here
+          </a>
+          .
         </p>
       </section>
 
       <section>
         <h2>Sharing</h2>
-        <p>
+        <p className="pp-paragraph">
           We may share your personal data within zaplog’s corporate group,
           affiliates, and trusted partners, such as restaurants, delivery
           partners, payment processors, and loyalty program providers, to
@@ -127,7 +136,7 @@ const PrivacyPolicy = () => {
 
       <section>
         <h2>Links to Other Sites</h2>
-        <p>
+        <p className="pp-paragraph">
           Our Platform may link to third-party websites, such as restaurant
           partners or payment gateways, which collect personal data. zaplog is
           not responsible for their privacy practices or content, and we
@@ -137,7 +146,7 @@ const PrivacyPolicy = () => {
 
       <section>
         <h2>Security Precautions</h2>
-        <p>
+        <p className="pp-paragraph">
           We adopt industry-standard security measures, aligned with ISO/IEC
           27001:2013, to protect your data from unauthorized access, loss, or
           misuse. While we use secure servers and update our systems regularly,
@@ -149,16 +158,20 @@ const PrivacyPolicy = () => {
 
       <section>
         <h2>Choice/Opt-Out</h2>
-        <p>
+        <p className="pp-paragraph">
           You can opt out of non-essential communications, such as promotional
           offers, after creating an account. To unsubscribe, follow the link in
-          our emails or contact our support team <a href="#">here</a>.
+          our emails or contact our support team{" "}
+          <a className="pp-links" href="#">
+            here
+          </a>
+          .
         </p>
       </section>
 
       <section>
         <h2>Use of Children’s Information</h2>
-        <p>
+        <p className="pp-paragraph">
           Our Platform is intended for users who can form legally binding
           contracts under the Indian Contract Act, 1872. We do not knowingly
           collect data from children under 18. If such data is shared, you
@@ -168,7 +181,7 @@ const PrivacyPolicy = () => {
 
       <section>
         <h2>Data Deletion and Retention</h2>
-        <p>
+        <p className="pp-paragraph">
           You may delete your account via the Profile and Settings section of
           our app, which removes all associated data, preventing access to order
           history, preferences, or loyalty benefits. Alternatively, contact us
@@ -181,7 +194,7 @@ const PrivacyPolicy = () => {
 
       <section>
         <h2>Your Rights</h2>
-        <p>
+        <p className="pp-paragraph">
           We strive to keep your data accurate and up-to-date. You can access,
           rectify, or update your information through our Platform’s settings.
           To withdraw consent previously given, email us with “Withdrawal of
@@ -192,7 +205,7 @@ const PrivacyPolicy = () => {
 
       <section>
         <h2>Consent</h2>
-        <p>
+        <p className="pp-paragraph">
           By using our Platform or providing information, you consent to the
           collection, use, storage, and processing of your data as outlined in
           this Privacy Policy. If you share others’ data, you confirm your
@@ -206,7 +219,7 @@ const PrivacyPolicy = () => {
 
       <section>
         <h2>Changes to this Privacy Policy</h2>
-        <p>
+        <p className="pp-paragraph">
           We may update this Privacy Policy to reflect changes in our practices.
           Check periodically for updates, and we’ll notify you of significant
           changes via email or Platform notices, as required by law.
@@ -215,7 +228,7 @@ const PrivacyPolicy = () => {
 
       <section>
         <h2>Grievance Officer</h2>
-        <p>
+        <p className="fpp-paragraph">
           <strong>Mr. Abhishek Kunwar</strong>
           <br />
           <strong>Designation:</strong> Customer Support Manager
@@ -224,28 +237,33 @@ const PrivacyPolicy = () => {
           Outer Ring Road, Bengaluru, Karnataka - 560103, India
           <br />
           <strong>Contact us:</strong>
-          <a href="mailto:support@zaplog.com">support@zaplog.com</a>
+          <a className="pp-links" href="mailto:support@zaplog.com">
+            support@zaplog.com
+          </a>
           <br />
           <strong>Phone:</strong> +91-7708520329
           <br />
           <strong>Customer Support:</strong> Reach our team for queries or
-          complaints <a href="#">here</a>
+          complaints{" "}
+          <a className="pp-links" href="#">
+            here
+          </a>
         </p>
       </section>
 
       <section>
         <h2>Queries</h2>
-        <p>
+        <p className="fpp-paragraph">
           For concerns about data collection or usage, contact us at the details
           above.
         </p>
       </section>
 
       <footer>
-        <p>
+        <p className="fpp-paragraph">
           <em>Last updated: Jan 23, 2025.</em>
         </p>
-        <p>
+        <p className="fpp-paragraph">
           <em>Version: 1.0</em>
         </p>
       </footer>

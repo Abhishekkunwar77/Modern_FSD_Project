@@ -9,6 +9,7 @@ import {
 import { FaCheckCircle } from "react-icons/fa";
 import aboutImage from "../assets/aboutImage.png";
 import { Link } from 'react-router-dom';
+import AboutContact from './AboutContact';
 
 const FeatureCard = ({ icon, title, description }) => (
   <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow border border-gray-100">
@@ -173,6 +174,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <AboutContact/>
     </div>
   );
 };
